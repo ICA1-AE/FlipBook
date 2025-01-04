@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flipbook-be"
+version = "0.1.0"
+description = ""
+authors = ["sajacaros <sajacall82@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.10.0.84"
+python-multipart = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
